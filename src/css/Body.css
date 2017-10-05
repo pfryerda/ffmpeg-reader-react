@@ -1,0 +1,28 @@
+.Body {
+  flex: 1;
+  padding-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.ContentContainer {
+  height: 10rem;
+  width: 30rem;
+  text-align: left;
+  border: 1px solid rgb(156, 156, 156);
+  padding: 1rem;
+}
+
+.urlContainer {
+  width: 100%;
+}
+
+.urlTextField {
+  margin-left: 1rem;
+}
+
+.downloadButtonContainer {
+  width: 100%;
+  text-align: center;
+  padding-top: 1rem;
+}

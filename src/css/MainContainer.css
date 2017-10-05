@@ -1,0 +1,21 @@
+.MainContainer {
+  text-align: center;
+}
+
+.MainContainer-title {
+  font-size: 1.5em;
+}
+
+.MainContainerFlexbox {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  background: red;
+}
+
+.Title {
+  font-size: 2rem;
+  height: 4rem;
+  padding-top: 1rem;
+}
