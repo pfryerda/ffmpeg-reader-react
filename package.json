@@ -3,16 +3,28 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "express": "^4.16.1",
     "ffmpeg": "0.0.4",
+    "gulp-csso": "^3.0.0",
+    "gulp-express": "^0.3.5",
+    "gulp-less": "^3.3.2",
+    "gulp-minify": "^1.0.0",
     "material-ui": "^0.19.3",
+    "mkdirp": "^0.5.1",
+    "mkdirp-promise": "^5.0.1",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
-    "react-scripts": "1.0.14"
+    "react-scripts": "1.0.14",
+    "xfs": "^0.2.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-nodemon": "^2.2.1"
   }
 }
