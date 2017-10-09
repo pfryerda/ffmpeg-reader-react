@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import '../css/Body.css';
 import TextField from 'material-ui/TextField';
 import RaisedButton from 'material-ui/RaisedButton'
+import 'whatwg-fetch'
 
 const URL_HINT_TEXT = "Enter a video URL";
 const DOWNLOAD_BUTTON_LABEL = "DOWNLOAD"
@@ -31,6 +32,12 @@ class Body extends Component {
     const {downloadButtonDisabled, value} = this.state;
     if (!downloadButtonDisabled) {
       console.log(value)
+
+      fetch('/download')
+        .then(function(response) {
+          console.log("Response", response, response.text);
+          return response;
+        });
     }
   }
 
